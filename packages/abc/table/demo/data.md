@@ -39,11 +39,11 @@ export class DemoComponent implements OnInit {
       type: 'checkbox',
       selections: [
         {
-          text: '小于25岁',
+          text: '',
           select: data => data.forEach(item => (item.checked = item.age < 25)),
         },
         {
-          text: '大于25岁',
+          text: '',
           select: data => data.forEach(item => (item.checked = item.age >= 25)),
         },
       ],
